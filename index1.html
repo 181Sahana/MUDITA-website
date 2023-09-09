@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INDEX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Libre+Baskerville&family=Playfair+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <style>
+      #nav {
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: rgb(164, 250, 164);
+        width: 100%;
+        height: 50px;
+        position: sticky;
+        top: 0;
+        justify-content: flex-end;
+        gap: 30px;
+      }
+      nav a {
+        text-decoration: none;
+        padding: 15px;
+        color: darkolivegreen;
+        font-weight: 1000;
+        font-size: x-large;
+      }
+      nav a:hover {
+        color: rgb(104, 139, 233);
+      }
+      .container1 {
+        display: grid;
+        background-image: url(images/wallpaper2.jpg);
+        width: 100%;
+        height: 400px;
+        margin-top: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        grid-template-columns: 2fr 1fr;
+      }
+      #logo {
+        width: 100%;
+        height: 400px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+      }
+      #box {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 80%;
+        height: 200px;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      #p1 {
+        font-family: "Dancing Script", cursive;
+        font-size: 500%;
+        white-space: nowrap;
+        float: right;
+        flex-shrink: 1;
+        width: 50%;
+      }
+      #p2 {
+        background-color: rgb(189, 38, 38);
+        width: 40%;
+        height: 300px;
+        border-radius: 10px;
+        margin-top: 180px;
+        border: 5px solid darksalmon;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        font-size: 205%;
+        text-align: center;
+        flex-shrink: inherit;
+      }
+      #box #p2:hover {
+        color: rgb(88, 30, 5);
+        background-color: rgb(57, 155, 16);
+        border: 3px solid black;
+      }
+      .container2 {
+        display: grid;
+        margin-top: 40px;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+      }
+      #para {
+        font-size: 20px;
+        justify-content: center;
+        text-align: justify;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      .container2 img {
+        max-width: 120%;
+        max-height: 120%;
+        line-height: 1.2;
+      }
+      .container3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 20px;
+        margin: 20px;
+      }
+      .img {
+        width: 100%;
+        height: 300px;
+      }
+      footer {
+        padding: 10px 30px;
+        width: 95%;
+        height: 9%;
+        background-color: rgb(112, 196, 112);
+        float: center;
+        position: sticky;
+        bottom: 0;
+      }
+      .fa {
+        padding: 10px;
+        font-size: 30px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        margin-left: 20px;
+        border-radius: 10px;
+      }
+
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.7;
+      }
+
+      /* Set a specific color for each brand */
+
+      /* Facebook */
+      .fa-facebook {
+        background: #3b5998;
+        color: white;
+      }
+
+      /* Twitter */
+      .fa-instagram {
+        background: #d96ba9;
+        color: white;
+      }
+      .fa-linkedin {
+        background: #55acee;
+        color: white;
+      }
+      .fa-envelope {
+        background: #eaf0af;
+        color: white;
+      }
+      .rights {
+        float: right;
+        padding: 20px 20px 20px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav id="nav">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="events.html">Events</a>
+      <a href="team.html">Team</a>
+    </nav>
+    <div class="container1">
+      <div id="box">
+        <div id="p1"></div>
+        <p id="p2">Donate Now</p>
+      </div>
+      <img src="images/Mudita logo.png" alt="logo" id="logo" />
+      <div></div>
+    </div>
+    <div class="container2">
+      <img src="images/transparent.png" alt="" id="unity" />
+
+      <div id="para">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero vel
+        repellendus velit dolores voluptates similique corporis culpa deleniti
+        excepturi dolorem aut sint cupiditate vero nisi saepe omnis quos fugit
+        nam nostrum, tempora deserunt quibusdam? Nemo, provident, cupiditate
+        dignissimos adipisci et ducimus deserunt veniam delectus fuga ex sequi
+        earum laborum aliquam ipsum laboriosam vitae! Qui at esse amet sint
+        laborum possimus dolore, eligendi facilis sit suscipit doloremque
+        molestias adipisci rem numquam quibusdam beatae reiciendis! Soluta
+        consequatur nostrum quaerat quia exercitationem cumque omnis vero dolore
+        itaque, a iste iure accusantium fuga architecto. Delectus, nobis
+        perspiciatis deleniti facilis non est dolor velit ipsa rerum mollitia
+        praesentium sed at aliquam libero ipsam quidem provident harum nemo
+        nulla vel assumenda iste accusantium nesciunt? Nisi voluptatem
+        cupiditate ipsam perspiciatis, vitae nulla autem quis. Ea non fugit
+        ullam repellendus? Ratione facere numquam iste praesentium veniam
+        placeat veritatis, expedita dolores id enim iusto laborum voluptates ex
+        voluptate libero amet hic necessitatibus. Temporibus consequatur est
+        atque, harum eius iure autem maxime laudantium ipsum assumenda quia sed
+        iusto quas cum consectetur consequuntur ut saepe qui mollitia quaerat
+        dolor provident corporis. Temporibus repudiandae neque perspiciatis modi
+        nulla voluptate repellat atque! Et accusamus soluta, placeat rem
+        consequatur dicta distinctio reiciendis veniam voluptas magnam possimus
+        accusantium cupiditate eum quam sint consectetur quod in repellendus
+        quibusdam labore quae rerum adipisci libero recusandae. Vero dolores
+        voluptatibus fugit accusamus? Possimus repellat magni corporis minus
+        ducimus quibusdam?Lorem ipsum dolor, sit amet consectetur adipisicing
+        elit. Itaque iste, nostrum repellendus repellat magni aliquid eum
+        delectus suscipit quae sapiente.
+      </div>
+    </div>
+
+    <div class="container3">
+      <img src="images/1.jpg" alt="" class="img img1" />
+      <img src="images/2.jpg" alt="" class="img img2" />
+      <img src="images/3.jpg" alt="" class="img img3" />
+      <img src="images/4.jpg" alt="" class="img img4" />
+      <img src="images/5.jpg" alt="" class="img img5" />
+      <img src="images/7.jpg" alt="" class="img img6" />
+    </div>
+    <footer class="footer">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="https://www.instagram.com/___mudita__/" class="fa fa-instagram"></a>
+      <a href="https://www.linkedin.com/in/mudita-dsi-b69596263/" class="fa fa-linkedin"></a>
+      <a href="mudita_dsce@dsce.edu.in" class="fa fa-envelope"></a>
+      <p class="rights">© 2021 MUDITA</p>
+    </footer>
+  </body>
+</html>
